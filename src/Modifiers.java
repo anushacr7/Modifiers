@@ -5,17 +5,17 @@ public class Modifiers {
     private String password;
     private String details;
 
-     public Modifiers(String EN, int ID, int c) {
+    public Modifiers(String EN, int ID, int c) {
         this.employeeNAme = EN;
         this.id = ID;
         this.salary = c;
 
 
     }
-    String add(String p, int q, int r){
-        return p+q+r;
-    }
 
+    String add(String p, int q, int r) {
+        return p + q + r;
+    }
 
 
 }
